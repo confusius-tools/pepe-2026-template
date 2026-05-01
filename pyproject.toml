@@ -1,0 +1,12 @@
+[project]
+name = "pepe-mariani-2026-template"
+version = "0.1.0"
+description = "Export a ConfUSIus-loadable fUSI template aligned to the Allen atlas"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "confusius>=0.0.1a25",
+    "numpy>=2.3.5",
+    "simpleitk>=2.5.4",
+    "xarray>=2026.4.0",
+]
