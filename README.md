@@ -43,7 +43,7 @@ Running the export writes:
 Export the template:
 
 ```bash
-uv run python main.py
+uv run main.py
 ```
 
 Use it later with ConfUSIus:
@@ -61,3 +61,8 @@ resampled_atlas = atlas.resample_like(
     template.affines["physical_to_sform"],
 )
 ```
+
+## Licensing
+
+- **Code license:** BSD-3-Clause (`LICENSE`)
+- **Data license:** CC BY 4.0 (`licenses/DATA_LICENSE.md`)
